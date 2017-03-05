@@ -39,6 +39,11 @@ public class Picture extends JFrame {
 		this.width = width;
 		this.height = height;
 	}
-	
+	public void draw()
+	{
+		setLocationRelativeTo(null);
+		setSize(width, height);
+		setVisible(true);
+	}
 	
 }
